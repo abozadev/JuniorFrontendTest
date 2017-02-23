@@ -1,0 +1,116 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Lato;
+}
+
+table {
+    width: 100%;
+}
+
+.box {
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    padding: 25px;
+    left: 35%;
+    top: 10%;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
+}
+
+
+ .searchButton {
+    float: right;
+    padding: 6px;
+     border-radius: 2px;
+     border:1px solid #cccccc
+ }
+
+ .profileImage {
+     float: left;
+     display: inline;
+    margin-right: 10px;
+     margin-left: -10px;
+ }
+
+.user {
+    display: inline-block;
+}
+
+.username {
+    margin-top: 5px;
+}
+.userInfo {
+    margin-top: 15px;
+}
+
+.searchInput {
+    display:inline;
+    width: 76%;
+    padding: 6px;
+    border-radius: 2px;
+    border:1px solid #cccccc
+}
+
+.spacer {
+    display: block;
+    margin-top: 5px;
+}
+
+.basicInfo {
+    width: auto;
+    display:block;
+    overflow:auto;
+    margin: 10px 10px 10px 0;
+}
+
+.repo {
+    text-align: left;
+}
+
+.imgTable {
+    width: 20px;
+    text-align: left;
+}
+
+.imgTable > img {
+    margin-top: 4px;
+}
+
+.numTable {
+    width: 20px;
+    text-align: right;
+}
+
+#user {
+    margin-left: 1px;
+}
+
+#name {
+    margin-top: -15px;
+}
+
+#username {
+    margin-top: -10px;
+}
+
+#description {
+    font-size: small;
+    margin-top: -5px;
+}
+
+.error {
+    border: 1px solid #D2B2B2;
+    border-radius: 3px;
+    margin-top: 15px;
+    background: #FCDEDE;
+    color: #991144;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.error > p {
+    margin: 5px;
+}

@@ -2,10 +2,40 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hello!</title>
+    <title>Junir Front End Test</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
 </head>
 <body>
+    <div class="box">
+        <div class="searchbox">
+            <input id="Input" class="searchInput" placeholder="Search username...">
+            <button  class="searchButton" type="button" onclick="getData()">Search</button>
+        </div>
+        <div id="user" style="display: none">
+            <div class="basicInfo">
+                <img id="image" class="profileImage" height="100" width="100" src="" alt="Profile Pic">
+                <div class="userInfo">
+                    <p id="username">username</p>
+                    <h2 id="name">Name</h2>
+                    <p id="description">Description</p>
+                </div>
+            </div>
+            <h3 style="margin-top: 5px; margin-bottom: 5px">Repositories</h3>
+            <hr class="spacer">
+            <div style="overflow: scroll; max-height: 500px">
+                <table id="reposTable">
+                </table>
+            </div>
+            <hr>
+        </div>
 
-<h1>Hello!</h1>
+        <div id="error" class="error" style="display: none">
+            <p>Does not exist</p>
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="js/main.js"></script>
 </html>
